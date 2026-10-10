@@ -1,4 +1,11 @@
 """Program entry point."""
+"""Warehouse Robot Search 
+
+Runs UCS and A* on the map stored in GRID and prints each result.
+
+To run:           python main.py
+To change the map: edit the GRID line below to MAP_A, MAP_B or MAP_C.
+"""
 from ucs import ucs
 from astar import astar
 from display import print_result
