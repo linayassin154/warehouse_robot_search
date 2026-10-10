@@ -1,4 +1,14 @@
 """Program entry point."""
+"""Warehouse Robot Search 
+
+Runs UCS and A* on the map stored in GRID and prints each result.
+
+To run:           python main.py
+To change the map: edit the GRID line below to MAP_A, MAP_B or MAP_C.
+"""
+from ucs import ucs
+from astar import astar
+from display import print_result
 
 MAP_A = [
     "S..#....",
@@ -26,3 +36,10 @@ MAP_C = [
 
 # Change this line to MAP_B or MAP_C to run on another map
 GRID = MAP_A
+
+if __name__ == "__main__":
+    # run both searches on the chosen map and print each result
+    for search in (ucs, astar):
+        result = search(GRID)
+        print_result(result, GRID)
+        print()   # blank line between the two results
