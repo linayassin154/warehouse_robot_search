@@ -1,6 +1,4 @@
 """Benchmark table for UCS and A* on MAP_A, MAP_B and MAP_C.
-
-Run with: python benchmark.py
 It prints the table and also writes it to results.md
 """
 from main import MAP_A, MAP_B, MAP_C
