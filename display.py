@@ -1,4 +1,4 @@
-"""Drawing and printing results (owner: Person 2)."""
+"""Drawing and printing results """
 
 
 def draw_path(grid, path):
