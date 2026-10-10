@@ -1,5 +1,4 @@
-"""Optional bonus (extra, not part of the main comparison): Breadth-First Search.
-
+"""
 BFS expands the cells with the fewest moves first and ignores the floor costs.
 That is why it falls into the trap on MAP_B: it finds the path with the fewest
 moves, but not the cheapest one.
