@@ -1,4 +1,3 @@
-"""Tests for the warehouse robot project."""
 import copy
 import random
 import unittest
